@@ -28,7 +28,7 @@ namespace POMExample
             home.goToPage();
             AboutPage about = home.goToAboutPage();
             ResultPage result = about.search("selenium c#");
-            result.clickOnFirstArticle();
+         //   result.clickOnFirstArticle();
         }
 
         [TearDown]

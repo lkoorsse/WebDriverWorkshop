@@ -16,7 +16,7 @@ namespace WebDriverWorkshop.NavigationPageObjects_LK
             
         }
 
-        [FindsBy(How = How.CssSelector, Using = "#posts-container>article:nth-child(1)")]
+        [FindsBy(How = How.CssSelector, Using = "#post-3794 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)")]
         private IWebElement firstArticle;
 
         public void clickOnFirstArticle()
