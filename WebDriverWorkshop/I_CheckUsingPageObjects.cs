@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium.Chrome;
 
 namespace WebDriverWorkshop.PageObjects
 {
@@ -48,6 +49,8 @@ namespace WebDriverWorkshop.PageObjects
         {
             //Try to automate this
             //You will need to alter the original page objects
+
+          
         }
     }
 }

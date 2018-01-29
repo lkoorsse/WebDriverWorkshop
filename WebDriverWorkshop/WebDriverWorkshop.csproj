@@ -89,6 +89,9 @@
     <Compile Include="PageObjects\LoginErrorPage.cs" />
     <Compile Include="PageObjects\LoginPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="J_TestAcademySetup.cs" />
+    <Compile Include="J_TestSWTestAcademy.cs" />
+    <Compile Include="J.TestAcademy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
@@ -98,7 +101,12 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SWTestAcademy\SWTestAcademy.csproj">
+      <Project>{8ee540bc-3672-486b-8bed-61b748d8cb90}</Project>
+      <Name>SWTestAcademy</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Drivers\chrome\chromedriver.exe" />
     <Content Include="Drivers\edge\MicrosoftWebDriver.exe" />

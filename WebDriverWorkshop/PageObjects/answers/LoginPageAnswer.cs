@@ -18,6 +18,7 @@ namespace WebDriverWorkshop.PageObjects
 
         private IWebDriver Driver;
 
+        //Initialize page
         public LoginPageAnswer(IWebDriver driver)
         {
             Driver = driver;
