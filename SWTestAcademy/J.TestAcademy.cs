@@ -22,7 +22,7 @@ namespace POMExample
         }
 
         [Test]
-        public void SearchTextFromAboutPage()
+        public void J_SearchTextFromAboutPage()
         {
             HomePage home = new HomePage(driver);
             home.goToPage();
