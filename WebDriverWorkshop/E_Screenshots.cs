@@ -14,8 +14,8 @@ namespace WebDriverWorkshop
             //Navigate to a Website.
             Driver.Navigate().GoToUrl("http://www.twitter.com");
 
-            var screenShot = Driver.GetScreenshot();
-            screenShot.SaveAsFile(@"C:\Users\koorssel\Documents\twitter.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+            //var screenShot = Driver.GetScreenshot();
+            //screenShot.SaveAsFile(@"C:\Users\koorssel\Documents\twitter.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
             Driver.Quit();
         }
     }

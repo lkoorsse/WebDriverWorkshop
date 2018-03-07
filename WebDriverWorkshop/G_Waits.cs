@@ -31,8 +31,8 @@ namespace WebDriverWorkshop
         {
             var Driver = new FirefoxDriver();
             Driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/login");
-            Driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
-            Driver.FindElement(By.Id("ThisIsNotReal"));
+            //Driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
+            //Driver.FindElement(By.Id("ThisIsNotReal"));
             Driver.Quit();
         }
 
